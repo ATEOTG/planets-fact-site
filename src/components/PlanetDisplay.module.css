@@ -1,9 +1,10 @@
 .planet-display-cont {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 6rem;
+  gap: 4rem;
 }
 .display-text {
   display: flex;
@@ -45,4 +46,12 @@
 
 .planet-img {
   width: 50%;
+}
+
+.surface-img {
+  position: absolute;
+  width: 25%;
+  top: 0;
+  left: 0;
+  transform: translate(150%, 110%);
 }

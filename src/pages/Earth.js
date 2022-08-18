@@ -30,6 +30,37 @@ function Earth() {
             />
           }
         />
+        <Route
+          path="structure"
+          element={
+            <PlanetDisplay
+              image={planetEarthInternal}
+              header={"EARTH"}
+              description={`Earth's interior, like that of the other terrestrial planets, is divided 
+              into layers by their chemical or physical (rheological) properties. The 
+              outer layer is a chemically distinct silicate solid crust, which is 
+              underlain by a highly viscous solid mantle.`}
+              source={"https://en.wikipedia.org/wiki/Earth#Internal_structure"}
+            />
+          }
+        />
+        <Route
+          path="surface"
+          element={
+            <PlanetDisplay
+              image={planetEarth}
+              isSurface={true}
+              surfaceImage={earthGeology}
+              header={"EARTH"}
+              description={`The total surface area of Earth is about 510 million km2. The continental 
+  crust consists of lower density material such as the igneous rocks granite 
+  and andesite. Less common is basalt, a denser volcanic rock that is the 
+  primary constituent of the ocean floors.
+`}
+              source={"https://en.wikipedia.org/wiki/Earth#Surface"}
+            />
+          }
+        />
       </Routes>
 
       <NumericalInfo
