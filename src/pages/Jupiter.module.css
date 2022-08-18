@@ -1,0 +1,14 @@
+.jupiter-active,
+.jupiter-active:hover,
+.jupiter-active:active {
+  color: var(--white) !important;
+  border-bottom: 4px solid var(--jupiter-clr);
+}
+
+.jupiter-inactive {
+  transition: all 0.3s;
+}
+.jupiter-inactive:hover {
+  color: var(--white);
+  border-bottom: 4px solid var(--jupiter-clr);
+}
