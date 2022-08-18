@@ -1,0 +1,26 @@
+.info-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  margin-top: 3em;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 2em;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.info-desc {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.info-number {
+  font-family: "Antonio", sans-serif;
+  font-size: 2rem;
+  color: var(--white);
+}
