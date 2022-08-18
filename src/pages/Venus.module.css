@@ -1,0 +1,14 @@
+.venus-active,
+.venus-active:hover,
+.venus-active:active {
+  color: var(--white) !important;
+  border-bottom: 4px solid var(--venus-clr);
+}
+
+.venus-inactive {
+  transition: all 0.3s;
+}
+.venus-inactive:hover {
+  color: var(--white);
+  border-bottom: 4px solid var(--venus-clr);
+}
