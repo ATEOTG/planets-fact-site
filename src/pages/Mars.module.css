@@ -1,0 +1,14 @@
+.mars-active,
+.mars-active:hover,
+.mars-active:active {
+  color: var(--white) !important;
+  border-bottom: 4px solid var(--mars-clr);
+}
+
+.mars-inactive {
+  transition: all 0.3s;
+}
+.mars-inactive:hover {
+  color: var(--white);
+  border-bottom: 4px solid var(--mars-clr);
+}
