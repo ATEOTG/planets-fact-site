@@ -1,0 +1,14 @@
+.earth-active,
+.earth-active:hover,
+.earth-active:active {
+  color: var(--white) !important;
+  border-bottom: 4px solid var(--earth-clr);
+}
+
+.earth-inactive {
+  transition: all 0.3s;
+}
+.earth-inactive:hover {
+  color: var(--white);
+  border-bottom: 4px solid var(--earth-clr);
+}
