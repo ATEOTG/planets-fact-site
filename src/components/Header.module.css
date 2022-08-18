@@ -1,0 +1,16 @@
+.title {
+  color: var(--white);
+  font-size: 2.8rem;
+  font-family: "Antonio", sans-serif;
+}
+
+.header-cont {
+  padding: 1.5em 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -3,6 +3,7 @@
 
 :root {
   --white: #ffffffff;
+  --grey: #979797;
   --mercury-clr: #419ebb;
   --venus-clr: #eda249;
   --earth-clr: #6d2ed5;
@@ -11,6 +12,7 @@
   --saturn-clr: #cd5120;
   --uranus-clr: #1ec1a2;
   --neptune-clr: #2d68f0;
+  --background-clr: #070724;
 }
 
 * {
@@ -25,4 +27,11 @@ html {
 
 body {
   font-family: "League Spartan", sans-serif;
+  background-color: var(--background-clr);
+  background-image: url("./assets/background-stars.svg");
+}
+
+.centered {
+  width: 90%;
+  margin: 0 auto;
 }
