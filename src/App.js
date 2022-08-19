@@ -7,6 +7,7 @@ import Earth from "./pages/Earth";
 import Mars from "./pages/Mars";
 import Jupiter from "./pages/Jupiter";
 import Saturn from "./pages/Saturn";
+import Uranus from "./pages/Uranus";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/mars/*" element={<Mars />} />
         <Route path="/jupiter/*" element={<Jupiter />} />
         <Route path="/saturn/*" element={<Saturn />} />
+        <Route path="/uranus/*" element={<Uranus />} />
       </Routes>
     </Fragment>
   );

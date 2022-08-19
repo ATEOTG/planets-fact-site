@@ -1,0 +1,14 @@
+.uranus-active,
+.uranus-active:hover,
+.uranus-active:active {
+  color: var(--white) !important;
+  border-bottom: 4px solid var(--uranus-clr);
+}
+
+.uranus-inactive {
+  transition: all 0.3s;
+}
+.uranus-inactive:hover {
+  color: var(--white);
+  border-bottom: 4px solid var(--uranus-clr);
+}
