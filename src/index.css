@@ -29,7 +29,7 @@ body {
   font-family: "League Spartan", sans-serif;
   background-color: var(--background-clr);
   background-image: url("./assets/background-stars.svg");
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .centered {
