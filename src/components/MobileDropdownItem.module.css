@@ -1,0 +1,31 @@
+.link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.list-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-link div {
+  display: flex;
+  gap: 2em;
+}
+.list-link div {
+  display: flex;
+  gap: 2em;
+}
+
+.list-link-text {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
