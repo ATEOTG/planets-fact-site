@@ -9,7 +9,7 @@ function MobileDropdownItem(props) {
         <div>
           <div
             className={classes.circle}
-            style={{ "background-color": `${props.circleColor}` }}
+            style={{ backgroundColor: `${props.circleColor}` }}
           ></div>
           <p className={classes["list-link-text"]}>{props.planetName}</p>
         </div>

@@ -15,7 +15,7 @@ function App() {
     <Fragment>
       <Header />
       <Routes>
-        <Route path="/" element={<Navigate replace to="/earth" />} />
+        <Route path="/" element={<Navigate replace to="/earth/overview" />} />
         <Route path="/earth/*" element={<Earth />} />
         <Route path="/mercury/*" element={<Mercury />} />
         <Route path="/venus/*" element={<Venus />} />
