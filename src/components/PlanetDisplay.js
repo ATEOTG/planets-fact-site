@@ -1,23 +1,18 @@
-import InnerNav from "./InnerNav";
 import classes from "./PlanetDisplay.module.css";
 import IconSource from "./svg/IconSource";
 
 function PlanetDisplay(props) {
   const surfaceDisplay = props.isSurface;
   return (
-    <div className={`${classes["planet-display-cont"]} ${"centered"}`}>
+    <div>
       <div className={classes["img-displays"]}>
-        <img
-          className={classes["planet-img"]}
-          src={props.image}
-          alt="image of planet earth"
-        />
+        <img className={classes["planet-img"]} src={props.image} alt="planet" />
         <div className={classes["surface-display"]}>
           {surfaceDisplay && (
             <img
               className={classes["surface-img"]}
               src={props.surfaceImage}
-              alt="earth surface"
+              alt="planet surface"
             />
           )}
         </div>

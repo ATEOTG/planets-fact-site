@@ -12,3 +12,20 @@
   color: var(--white);
   border-bottom: 4px solid var(--earth-clr);
 }
+
+.earth-active-desk,
+.earth-active-desk:hover,
+.earth-active-desk:active {
+  color: var(--white) !important;
+  background-color: var(--earth-clr);
+  border: 1px solid var(--earth-clr) !important;
+}
+
+.earth-inactive-desk {
+  transition: all 0.3s;
+}
+.earth-inactive-desk:hover {
+  color: var(--white);
+  background-color: var(--earth-clr);
+  border: 1px solid var(--earth-clr);
+}

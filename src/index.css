@@ -37,11 +37,27 @@ body {
   margin: 0 auto;
 }
 
+.planet-display-cont {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-cont {
+  position: relative;
+}
+
 @media (min-width: 48em) {
   html {
     font-size: 75%;
   }
-
+  .planet-display-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2em;
+  }
   /* .page-cont {
     display: grid;
     grid-template-columns: 1fr 1fr;
