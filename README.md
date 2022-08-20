@@ -4,6 +4,8 @@ This is a solution to the [Planets fact site challenge on Frontend Mentor](https
 
 ## Overview
 
+Website that allows users to navigate to different pages to look at facts about each planet in our solar system
+
 ### The challenge
 
 Users should be able to:
@@ -14,12 +16,19 @@ Users should be able to:
 
 ### Screenshot
 
-### Links
+## Desktop Version
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+![Screen Shot 2022-08-20 at 17 30 35](https://user-images.githubusercontent.com/25332391/185766708-655ea295-52e4-4800-b9a2-85854f1d03dd.png)
 
-## My process
+## Tablet Version
+
+![Screen Shot 2022-08-20 at 17 30 25](https://user-images.githubusercontent.com/25332391/185766706-08a24ab3-0d96-441c-bffd-78f904171b86.png)
+
+
+## Mobile Version
+
+![Screen Shot 2022-08-20 at 17 30 13](https://user-images.githubusercontent.com/25332391/185766703-cf09f21a-5b63-4e5b-99eb-d4e49c99f5ea.png)
+
 
 ### Built with
 
@@ -29,3 +38,4 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
+- React Router
