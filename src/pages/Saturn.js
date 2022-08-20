@@ -8,6 +8,7 @@ import planetSaturn from "../assets/planet-saturn.svg";
 import planetSaturnInternal from "../assets/planet-saturn-internal.svg";
 import saturnGeology from "../assets/geology-saturn.png";
 import InnerNav from "../components/InnerNav";
+import NotFound from "./NotFound";
 import { Fragment } from "react";
 
 function Saturn() {
@@ -87,6 +88,7 @@ function Saturn() {
                 </Fragment>
               }
             />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </div>

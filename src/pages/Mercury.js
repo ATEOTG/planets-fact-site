@@ -8,6 +8,7 @@ import planetMercury from "../assets/planet-mercury.svg";
 import planetMercuryInternal from "../assets/planet-mercury-internal.svg";
 import mercuryGeology from "../assets/geology-mercury.png";
 import InnerNav from "../components/InnerNav";
+import NotFound from "./NotFound";
 import { Fragment } from "react";
 
 function Mercury() {
@@ -88,6 +89,7 @@ function Mercury() {
                 </Fragment>
               }
             />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </div>

@@ -8,6 +8,7 @@ import planetMars from "../assets/planet-mars.svg";
 import planetMarsInternal from "../assets/planet-mars-internal.svg";
 import marsGeology from "../assets/geology-mars.png";
 import InnerNav from "../components/InnerNav";
+import NotFound from "./NotFound";
 import { Fragment } from "react";
 
 function Mars() {
@@ -88,6 +89,7 @@ function Mars() {
                 </Fragment>
               }
             />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </div>

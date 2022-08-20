@@ -8,6 +8,7 @@ import planetVenus from "../assets/planet-venus.svg";
 import planetVenusInternal from "../assets/planet-venus-internal.svg";
 import venusGeology from "../assets/geology-venus.png";
 import InnerNav from "../components/InnerNav";
+import NotFound from "./NotFound";
 import { Fragment } from "react";
 
 function Venus() {
@@ -86,6 +87,7 @@ function Venus() {
                 </Fragment>
               }
             />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </div>

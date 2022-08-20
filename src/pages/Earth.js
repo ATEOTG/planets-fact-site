@@ -9,6 +9,7 @@ import { Fragment } from "react";
 import InnerNav from "../components/InnerNav";
 import PlanetDisplayImg from "../components/PlanetDisplayImg";
 import PlanetDisplayText from "../components/PlanetDisplayText";
+import NotFound from "./NotFound";
 
 function Earth() {
   return (
@@ -86,6 +87,7 @@ function Earth() {
                 </Fragment>
               }
             />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </div>

@@ -8,6 +8,7 @@ import planetJupiter from "../assets/planet-jupiter.svg";
 import planetJupiterInternal from "../assets/planet-jupiter-internal.svg";
 import jupiterGeology from "../assets/geology-jupiter.png";
 import InnerNav from "../components/InnerNav";
+import NotFound from "./NotFound";
 import { Fragment } from "react";
 
 function Jupiter() {
@@ -87,6 +88,7 @@ function Jupiter() {
                 </Fragment>
               }
             />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </div>

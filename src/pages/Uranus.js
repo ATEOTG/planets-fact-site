@@ -8,6 +8,7 @@ import planetUranus from "../assets/planet-uranus.svg";
 import planetUranusInternal from "../assets/planet-uranus-internal.svg";
 import uranusGeology from "../assets/geology-uranus.png";
 import InnerNav from "../components/InnerNav";
+import NotFound from "./NotFound";
 import { Fragment } from "react";
 
 function Uranus() {
@@ -85,6 +86,7 @@ function Uranus() {
                 </Fragment>
               }
             />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </div>

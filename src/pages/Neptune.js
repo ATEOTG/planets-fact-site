@@ -8,6 +8,7 @@ import planetNeptune from "../assets/planet-neptune.svg";
 import planetNeptuneInternal from "../assets/planet-neptune-internal.svg";
 import neptuneGeology from "../assets/geology-neptune.png";
 import InnerNav from "../components/InnerNav";
+import NotFound from "./NotFound";
 import { Fragment } from "react";
 
 function Neptune() {
@@ -84,6 +85,7 @@ function Neptune() {
                 </Fragment>
               }
             />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </div>
