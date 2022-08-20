@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-import IconChevron from "./svg/IconChevron";
 import classes from "./MobileDropdown.module.css";
 import MobileDropdownItem from "./MobileDropdownItem";
 

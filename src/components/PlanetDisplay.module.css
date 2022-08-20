@@ -70,3 +70,24 @@
   left: 0;
   transform: translate(-50%, 120%);
 }
+
+@media (min-width: 48em) {
+  .planet-display-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2em;
+  }
+
+  .img-displays {
+    grid-column: 1/3;
+  }
+
+  .display-text {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .display-text p {
+    text-align: left;
+  }
+}

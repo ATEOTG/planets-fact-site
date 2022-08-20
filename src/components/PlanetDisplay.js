@@ -1,3 +1,4 @@
+import InnerNav from "./InnerNav";
 import classes from "./PlanetDisplay.module.css";
 import IconSource from "./svg/IconSource";
 

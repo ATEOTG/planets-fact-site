@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate, useLocation } from "react-router-dom";
 import classes from "./InnerNav.module.css";
 
 function InnerNav(props) {
@@ -13,9 +13,13 @@ function InnerNav(props) {
                 navData.isActive ? props.activeClass : props.inactiveClass
               }
               to="overview"
+              replace={true}
             >
-              {" "}
-              OVERVIEW
+              <div className={classes["inner-nav-text"]}>
+                <p className={classes["inner-nav-number"]}>01</p>
+
+                <p className={classes["inner-nav-heading"]}> OVERVIEW</p>
+              </div>
             </NavLink>
           </li>
           <li>
@@ -23,10 +27,15 @@ function InnerNav(props) {
               className={(navData) =>
                 navData.isActive ? props.activeClass : props.inactiveClass
               }
-              to="structure"
+              to={`structure`}
             >
-              {" "}
-              STRUCTURE
+              <div className={classes["inner-nav-text"]}>
+                <p className={classes["inner-nav-number"]}>02</p>
+
+                <p className={classes["inner-nav-heading"]}>
+                  INTERNAL STRUCTURE
+                </p>
+              </div>
             </NavLink>
           </li>
           <li>
@@ -36,8 +45,11 @@ function InnerNav(props) {
               }
               to="surface"
             >
-              {" "}
-              SURFACE
+              <div className={classes["inner-nav-text"]}>
+                <p className={classes["inner-nav-number"]}>03</p>
+
+                <p className={classes["inner-nav-heading"]}>SURFACE GEOLOGY</p>
+              </div>
             </NavLink>
           </li>
         </ul>
