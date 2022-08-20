@@ -17,7 +17,8 @@ function App() {
       <Header />
       <Routes>
         <Route
-          path="/planets-fact-site/"
+          path="/planets-fact-site"
+          exact
           element={<Navigate replace to="/earth/overview" />}
         />
         <Route path="/earth/*" element={<Earth />} />
