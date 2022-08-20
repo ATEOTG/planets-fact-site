@@ -29,3 +29,13 @@
     display: none;
   }
 }
+
+@media (min-width: 90em) {
+  .title {
+    font-size: 2.2rem;
+  }
+  .header-nav {
+    width: 97%;
+    flex-direction: row;
+  }
+}

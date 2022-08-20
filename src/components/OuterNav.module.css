@@ -1,10 +1,11 @@
 .outernav-cont {
-  display: flex;
+  display: none;
   justify-content: space-around;
   width: 100%;
 }
 
 .outernav-cont a {
+  position: relative;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 700;
@@ -15,4 +16,61 @@
 }
 .outernav-cont a:hover {
   color: var(--white);
+}
+
+#mercury div,
+#venus div,
+#earth div,
+#mars div,
+#jupiter div,
+#saturn div,
+#uranus div,
+#neptune div {
+  position: absolute;
+  border-top: 5px solid rgba(255, 255, 255, 0);
+  width: 100%;
+  top: 0;
+  left: 0;
+  transform: translateY(-560%);
+  transition: all 0.3s;
+}
+
+@media (min-width: 48em) {
+  .outernav-cont {
+    display: flex;
+  }
+}
+
+@media (min-width: 90em) {
+  #mercury:hover div {
+    border-top: 5px solid var(--mercury-clr);
+  }
+  #venus:hover div {
+    border-top: 5px solid var(--venus-clr);
+  }
+  #earth:hover div {
+    border-top: 5px solid var(--earth-clr);
+  }
+  #mars:hover div {
+    border-top: 5px solid var(--mars-clr);
+  }
+  #jupiter:hover div {
+    border-top: 5px solid var(--jupiter-clr);
+  }
+  #saturn:hover div {
+    border-top: 5px solid var(--saturn-clr);
+  }
+  #uranus:hover div {
+    border-top: 5px solid var(--uranus-clr);
+  }
+  #neptune:hover div {
+    border-top: 5px solid var(--neptune-clr);
+  }
+  .outernav-cont {
+    width: 50%;
+  }
+
+  .outernav-cont a {
+    padding-bottom: 0;
+  }
 }
