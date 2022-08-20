@@ -20,12 +20,3 @@
   background-color: var(--venus-clr);
   border: 1px solid var(--venus-clr) !important;
 }
-
-.venus-inactive-desk {
-  transition: all 0.3s;
-}
-.venus-inactive-desk:hover {
-  color: var(--white);
-  background-color: var(--venus-clr);
-  border: 1px solid var(--venus-clr);
-}

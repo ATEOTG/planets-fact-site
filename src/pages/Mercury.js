@@ -21,7 +21,7 @@ function Mercury() {
         <div className="planet-display-cont centered">
           <InnerNav
             activeClass={classes["mercury-active-desk"]}
-            inactiveClass={classes["mercury-inactive-desk"]}
+            inactiveClass={"inactive-desk"}
           />
           <Routes>
             <Route

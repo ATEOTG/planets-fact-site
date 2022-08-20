@@ -18,3 +18,14 @@
 .menu {
   position: relative;
 }
+
+@media (min-width: 48em) {
+  .header-nav {
+    flex-direction: column;
+    gap: 3em;
+  }
+
+  .menu {
+    display: none;
+  }
+}

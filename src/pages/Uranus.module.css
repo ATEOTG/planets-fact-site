@@ -20,12 +20,3 @@
   background-color: var(--uranus-clr);
   border: 1px solid var(--uranus-clr) !important;
 }
-
-.uranus-inactive-desk {
-  transition: all 0.3s;
-}
-.uranus-inactive-desk:hover {
-  color: var(--white);
-  background-color: var(--uranus-clr);
-  border: 1px solid var(--uranus-clr);
-}

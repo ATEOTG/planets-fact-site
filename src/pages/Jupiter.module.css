@@ -20,12 +20,3 @@
   background-color: var(--jupiter-clr);
   border: 1px solid var(--jupiter-clr) !important;
 }
-
-.jupiter-inactive-desk {
-  transition: all 0.3s;
-}
-.jupiter-inactive-desk:hover {
-  color: var(--white);
-  background-color: var(--jupiter-clr);
-  border: 1px solid var(--jupiter-clr);
-}

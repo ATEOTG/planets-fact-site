@@ -2,6 +2,7 @@ import { useState } from "react";
 import Menu from "./svg/Menu";
 import classes from "./Header.module.css";
 import MobileDropdown from "./Mobile/MobileDropdown";
+import OuterNav from "./OuterNav";
 
 function Header() {
   const [isMenuClicked, setIsMenuClicked] = useState(false);
@@ -16,6 +17,7 @@ function Header() {
         <div className={classes.menu}>
           <Menu onMenuClick={isMenuClickedHandler} menuValid={isMenuClicked} />
         </div>
+        <OuterNav />
       </nav>
       {isMenuClicked && <MobileDropdown onMenuClick={isMenuClickedHandler} />}
     </header>

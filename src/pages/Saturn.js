@@ -22,7 +22,7 @@ function Saturn() {
         <div className="planet-display-cont centered">
           <InnerNav
             activeClass={classes["saturn-active-desk"]}
-            inactiveClass={classes["saturn-inactive-desk"]}
+            inactiveClass={"inactive-desk"}
           />
           <Routes>
             <Route

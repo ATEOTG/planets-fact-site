@@ -21,7 +21,7 @@ function Mars() {
         <div className="planet-display-cont centered">
           <InnerNav
             activeClass={classes["mars-active-desk"]}
-            inactiveClass={classes["mars-inactive-desk"]}
+            inactiveClass={"inactive-desk"}
           />
           <Routes>
             <Route

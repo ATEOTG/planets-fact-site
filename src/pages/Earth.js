@@ -22,7 +22,7 @@ function Earth() {
         <div className="planet-display-cont centered">
           <InnerNav
             activeClass={classes["earth-active-desk"]}
-            inactiveClass={classes["earth-inactive-desk"]}
+            inactiveClass={"inactive-desk"}
           />
           <Routes>
             <Route

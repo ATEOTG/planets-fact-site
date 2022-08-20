@@ -20,12 +20,3 @@
   background-color: var(--mercury-clr);
   border: 1px solid var(--mercury-clr) !important;
 }
-
-.mercury-inactive-desk {
-  transition: all 0.3s;
-}
-.mercury-inactive-desk:hover {
-  color: var(--white);
-  background-color: var(--mercury-clr);
-  border: 1px solid var(--mercury-clr);
-}

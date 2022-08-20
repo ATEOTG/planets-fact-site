@@ -21,7 +21,7 @@ function Jupiter() {
         <div className="planet-display-cont centered">
           <InnerNav
             activeClass={classes["jupiter-active-desk"]}
-            inactiveClass={classes["jupiter-inactive-desk"]}
+            inactiveClass={"inactive-desk"}
           />
           <Routes>
             <Route

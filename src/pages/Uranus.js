@@ -21,7 +21,7 @@ function Uranus() {
         <div className="planet-display-cont centered">
           <InnerNav
             activeClass={classes["uranus-active-desk"]}
-            inactiveClass={classes["uranus-inactive-desk"]}
+            inactiveClass={"inactive-desk"}
           />
           <Routes>
             <Route
