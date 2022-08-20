@@ -68,8 +68,13 @@ body {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 4em;
   }
-  /* .page-cont {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  } */
+}
+
+@media (min-width: 90em) {
+  .planet-display-cont {
+    width: 80%;
+    grid-template-columns: 70fr 33fr;
+    row-gap: 1.5em;
+    margin-bottom: 9em;
+  }
 }

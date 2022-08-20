@@ -37,3 +37,10 @@
     display: block;
   }
 }
+
+@media (min-width: 90em) {
+  .inner-nav {
+    width: 100%;
+    margin: 0;
+  }
+}

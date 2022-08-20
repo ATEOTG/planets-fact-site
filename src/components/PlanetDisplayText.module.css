@@ -51,3 +51,17 @@
     text-align: left;
   }
 }
+
+@media (min-width: 90em) {
+  .desc {
+    line-height: 1.8rem;
+    height: 125px;
+  }
+  .display-text h1 {
+    font-size: 6rem;
+  }
+
+  .source a {
+    font-size: 1.4rem;
+  }
+}

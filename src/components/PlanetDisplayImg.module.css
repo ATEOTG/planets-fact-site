@@ -39,3 +39,18 @@
     transform: translate(-50%, 145%);
   }
 }
+
+@media (min-width: 90em) {
+  .img-displays {
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+
+  .planet-img {
+    transform: scale(1);
+  }
+
+  .surface-img {
+    width: 12rem;
+  }
+}

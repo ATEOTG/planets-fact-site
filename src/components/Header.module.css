@@ -38,4 +38,8 @@
     width: 97%;
     flex-direction: row;
   }
+
+  .header-cont {
+    margin-bottom: 11em;
+  }
 }

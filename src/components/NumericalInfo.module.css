@@ -43,3 +43,27 @@
     letter-spacing: 0.8px;
   }
 }
+
+@media (min-width: 90em) {
+  .info-cont {
+    width: 80%;
+    gap: 2.5em;
+  }
+
+  .info {
+    gap: 0.5em;
+  }
+
+  .info-desc,
+  .info-number {
+    padding-left: 1rem;
+  }
+
+  .info-desc {
+    letter-spacing: 1.5px;
+  }
+  .info-number {
+    letter-spacing: -2px;
+    font-size: 3.3rem;
+  }
+}
