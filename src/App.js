@@ -18,16 +18,16 @@ function App() {
       <Routes>
         <Route
           path="/planets-fact-site/"
-          element={<Navigate replace to="/earth/overview" />}
+          element={<Navigate replace to="/planets-fact-site/earth/overview" />}
         />
-        <Route path="/earth/*" element={<Earth />} />
-        <Route path="/mercury/*" element={<Mercury />} />
-        <Route path="/venus/*" element={<Venus />} />
-        <Route path="/mars/*" element={<Mars />} />
-        <Route path="/jupiter/*" element={<Jupiter />} />
-        <Route path="/saturn/*" element={<Saturn />} />
-        <Route path="/uranus/*" element={<Uranus />} />
-        <Route path="/neptune/*" element={<Neptune />} />
+        <Route path="/planets-fact-site/earth/*" element={<Earth />} />
+        <Route path="/planets-fact-site/mercury/*" element={<Mercury />} />
+        <Route path="/planets-fact-site/venus/*" element={<Venus />} />
+        <Route path="/planets-fact-site/mars/*" element={<Mars />} />
+        <Route path="/planets-fact-site/jupiter/*" element={<Jupiter />} />
+        <Route path="/planets-fact-site/saturn/*" element={<Saturn />} />
+        <Route path="/planets-fact-site/uranus/*" element={<Uranus />} />
+        <Route path="/planets-fact-site/neptune/*" element={<Neptune />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Fragment>
