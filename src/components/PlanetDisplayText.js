@@ -8,7 +8,7 @@ function PlanetDisplayText(props) {
       <p className={classes.desc}>{props.description}</p>
       <div className={classes.source}>
         <p>Source : </p>
-        <a href={props.source} target="_blank">
+        <a href={props.source} target="_blank" rel="noreferrer">
           Wikipedia
         </a>
         <IconSource />
