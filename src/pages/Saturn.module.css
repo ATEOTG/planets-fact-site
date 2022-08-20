@@ -12,3 +12,20 @@
   color: var(--white);
   border-bottom: 4px solid var(--saturn-clr);
 }
+
+.saturn-active-desk,
+.saturn-active-desk:hover,
+.saturn-active-desk:active {
+  color: var(--white) !important;
+  background-color: var(--saturn-clr);
+  border: 1px solid var(--saturn-clr) !important;
+}
+
+.saturn-inactive-desk {
+  transition: all 0.3s;
+}
+.saturn-inactive-desk:hover {
+  color: var(--white);
+  background-color: var(--saturn-clr);
+  border: 1px solid var(--saturn-clr);
+}

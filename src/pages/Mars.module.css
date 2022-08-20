@@ -12,3 +12,20 @@
   color: var(--white);
   border-bottom: 4px solid var(--mars-clr);
 }
+
+.mars-active-desk,
+.mars-active-desk:hover,
+.mars-active-desk:active {
+  color: var(--white) !important;
+  background-color: var(--mars-clr);
+  border: 1px solid var(--mars-clr) !important;
+}
+
+.mars-inactive-desk {
+  transition: all 0.3s;
+}
+.mars-inactive-desk:hover {
+  color: var(--white);
+  background-color: var(--mars-clr);
+  border: 1px solid var(--mars-clr);
+}

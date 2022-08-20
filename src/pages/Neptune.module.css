@@ -12,3 +12,20 @@
   color: var(--white);
   border-bottom: 4px solid var(--neptune-clr);
 }
+
+.neptune-active-desk,
+.neptune-active-desk:hover,
+.neptune-active-desk:active {
+  color: var(--white) !important;
+  background-color: var(--neptune-clr);
+  border: 1px solid var(--neptune-clr) !important;
+}
+
+.neptune-inactive-desk {
+  transition: all 0.3s;
+}
+.neptune-inactive-desk:hover {
+  color: var(--white);
+  background-color: var(--neptune-clr);
+  border: 1px solid var(--neptune-clr);
+}

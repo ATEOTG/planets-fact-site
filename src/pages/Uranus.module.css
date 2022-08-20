@@ -12,3 +12,20 @@
   color: var(--white);
   border-bottom: 4px solid var(--uranus-clr);
 }
+
+.uranus-active-desk,
+.uranus-active-desk:hover,
+.uranus-active-desk:active {
+  color: var(--white) !important;
+  background-color: var(--uranus-clr);
+  border: 1px solid var(--uranus-clr) !important;
+}
+
+.uranus-inactive-desk {
+  transition: all 0.3s;
+}
+.uranus-inactive-desk:hover {
+  color: var(--white);
+  background-color: var(--uranus-clr);
+  border: 1px solid var(--uranus-clr);
+}
