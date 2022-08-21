@@ -8,7 +8,7 @@ function MobileDropdown(props) {
         <li>
           <MobileDropdownItem
             onClick={props.onMenuClick}
-            path={"/planets-fact-site/mercury/overview"}
+            path={"/mercury/overview"}
             circleColor={"#DEF4FC"}
             planetName={"MERCURY"}
           />
@@ -16,7 +16,7 @@ function MobileDropdown(props) {
         <li>
           <MobileDropdownItem
             onClick={props.onMenuClick}
-            path={"/planets-fact-site/venus/overview"}
+            path={"/venus/overview"}
             circleColor={"#F7CC7F"}
             planetName={"VENUS"}
           />
@@ -24,7 +24,7 @@ function MobileDropdown(props) {
         <li>
           <MobileDropdownItem
             onClick={props.onMenuClick}
-            path={"/planets-fact-site/earth/overview"}
+            path={"/earth/overview"}
             circleColor={"#545BFE"}
             planetName={"EARTH"}
           />
@@ -32,7 +32,7 @@ function MobileDropdown(props) {
         <li>
           <MobileDropdownItem
             onClick={props.onMenuClick}
-            path={"/planets-fact-site/mars/overview"}
+            path={"/mars/overview"}
             circleColor={"#FF6A45"}
             planetName={"MARS"}
           />
@@ -40,7 +40,7 @@ function MobileDropdown(props) {
         <li>
           <MobileDropdownItem
             onClick={props.onMenuClick}
-            path={"/planets-fact-site/jupiter/overview"}
+            path={"/jupiter/overview"}
             circleColor={"#ECAD7A"}
             planetName={"JUPITER"}
           />
@@ -48,7 +48,7 @@ function MobileDropdown(props) {
         <li>
           <MobileDropdownItem
             onClick={props.onMenuClick}
-            path={"/planets-fact-site/saturn/overview"}
+            path={"/saturn/overview"}
             circleColor={"#FCCB6B"}
             planetName={"SATURN"}
           />
@@ -56,7 +56,7 @@ function MobileDropdown(props) {
         <li>
           <MobileDropdownItem
             onClick={props.onMenuClick}
-            path={"/planets-fact-site/uranus/overview"}
+            path={"/uranus/overview"}
             circleColor={"#65F0D5"}
             planetName={"URANUS"}
           />
@@ -64,7 +64,7 @@ function MobileDropdown(props) {
         <li>
           <MobileDropdownItem
             onClick={props.onMenuClick}
-            path={"/planets-fact-site/neptune/overview"}
+            path={"/neptune/overview"}
             circleColor={"#497EFA"}
             planetName={"NEPTUNE"}
           />
